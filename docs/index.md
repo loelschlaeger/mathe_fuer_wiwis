@@ -7,6 +7,7 @@ description: |
 site: bookdown::bookdown_site
 documentclass: book
 url: https://loelschaeger.de/mathe_fuer_wiwis
+toc-title: "Table of Contentss"
 ---
 
 # Einleitung {-}
