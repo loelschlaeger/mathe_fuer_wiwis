@@ -1,4 +1,4 @@
 new_session: true
 delete_merged_file: true
 output_dir: "docs"
-clean: ["mathe_fuer_wiwis.rds"]
+toc-title: "Inhalt"
