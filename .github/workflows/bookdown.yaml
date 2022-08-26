@@ -33,7 +33,6 @@ jobs:
       
       - name: Commit results
         run: |
-          git checkout gh-pages
           git config --local user.email "oelschlaeger.lennart@gmail.com"
           git config --local user.name "Lennart Oelschlaeger"
           git add .
