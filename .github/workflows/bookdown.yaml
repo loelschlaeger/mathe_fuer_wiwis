@@ -1,56 +1,32 @@
-# Workflow derived from https://github.com/r-lib/actions/tree/v2/examples
-# Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
 on:
   push:
     branches: [main, master]
-  pull_request:
-    branches: [main, master]
-  workflow_dispatch:
-
-name: bookdown
 
 jobs:
-  bookdown:
+  render-book:
     runs-on: ubuntu-latest
-    # Only restrict concurrency for non-PR jobs
-    concurrency:
-      group: pkgdown-${{ github.event_name != 'pull_request' || github.run_id }}
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: actions/checkout@v2
-
-      - uses: r-lib/actions/setup-pandoc@v2
-
-      - uses: r-lib/actions/setup-r@v2
+      - name: Checkout repo
+        uses: actions/checkout@v2
         with:
-          use-public-rspm: true
+          fetch-depth: 0
 
-      - uses: r-lib/actions/setup-renv@v2
+      - uses: r-lib/actions/setup-pandoc@v1
+
+      - uses: r-lib/actions/setup-r@v1
+
+      - uses: r-lib/actions/setup-renv@v1
       
-      - name: Install bookdown
-        run: Rscript -e 'install.packages("bookdown")'
-        
-      - name: Install downlit
-        run: Rscript -e 'install.packages("downlit")'
-        
-      - name: Install xml2
-        run: Rscript -e 'install.packages("xml2")'
-
-      - name: Cache bookdown results
-        uses: actions/cache@v2
-        with:
-          path: _bookdown_files
-          key: bookdown-${{ hashFiles('**/*Rmd') }}
-          restore-keys: bookdown-
-
-      - name: Build site
-        run: bookdown::render_book("index.Rmd", quiet = TRUE)
-        shell: Rscript {0}
-
-      - name: Deploy to GitHub pages 🚀
-        if: github.event_name != 'pull_request'
-        uses: JamesIves/github-pages-deploy-action@4.1.4
-        with:
-          branch: gh-pages
-          folder: docs
+      - name: Render book
+        run: Rscript -e 'bookdown::render_book()'
+      
+      - name: Commit results
+        run: |
+          git checkout gh-pages
+          git config --local user.email "oelschlaeger.lennart@gmail.com"
+          git config --local user.name "Lennart Oelschlaeger"
+          git add .
+          git commit -m 'Rendered book :books:' || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
