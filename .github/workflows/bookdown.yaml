@@ -30,6 +30,12 @@ jobs:
       
       - name: Install bookdown
         run: Rscript -e 'install.packages("bookdown")'
+        
+      - name: Install downlit
+        run: Rscript -e 'install.packages("downlit")'
+        
+      - name: Install xml2
+        run: Rscript -e 'install.packages("xml2")'
 
       - name: Cache bookdown results
         uses: actions/cache@v2
