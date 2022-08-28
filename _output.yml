@@ -1,7 +1,7 @@
 bookdown::bs4_book:
   css: style.css
   theme:
-    primary: "#88B04B"
+    primary: "#23483C"
     base_font: 
       google: Sen
   repo: https://github.com/loelschlaeger/mathe_fuer_wiwis

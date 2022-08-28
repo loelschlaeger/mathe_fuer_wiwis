@@ -9,14 +9,22 @@ documentclass: book
 url: https://loelschaeger.de/mathe_fuer_wiwis
 ---
 
-# Einleitung {-}
+# Willkommen {-}
 
-Text.
+Wirtschaftswissenschaftler beschäftigen sich zu Beginn des Studiums mit Mathematik. Das bildet die Grundlage für viele Vorlesungen in fortgeschrittenen Semestern. 
 
-## Eine weitere Überschrift {-}
+::: {.rmdimportant}
+Dieses Buch entsteht noch.
+:::
 
-Mehr Text.
+## Inhalte {-}
 
-<div class="yt-container">
-  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
-</div>
+Siehe Inhaltsverzeichnis links. Start mit Vorkurs zur Wiederholung der Schulmathematik. Dann typische Themen der ersten beiden Semester Mathematik an der Universität, von Aussagenlogik bis ...
+
+## Dein Feedback {-}
+
+Siehe "Edit this page".
+
+## Über mich {-}
+
+Ich bin Lennart.

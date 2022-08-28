@@ -15,3 +15,35 @@
   width: 100%;
   height: 100%;
 }
+
+.rmdcaution {
+  padding: 1em;
+  background: white;
+  color: #dc3545;
+  border: 2px solid orange;
+  border-radius: 10px;
+}
+
+.rmdimportant {
+  padding: 1em;
+  background: white;
+  color: #198754;
+  border: 2px solid orange;
+  border-radius: 10px;
+}
+
+.rmdtip {
+  padding: 1em;
+  background: white;
+  color: #0dcaf0;
+  border: 2px solid orange;
+  border-radius: 10px;
+}
+
+.rmdwarning {
+  padding: 1em;
+  background: white;
+  color: #ffc107;
+  border: 2px solid orange;
+  border-radius: 10px;
+}
