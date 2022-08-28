@@ -1,7 +1,7 @@
 --- 
 title: "Mathe für WiWis"
 author: "Lennart Oelschläger"
-date: "26.08.2022"
+date: "28.08.2022"
 description: |
   Inhalte der einführenden Mathe Vorlesungen für Wirtschaftswissenschaftler
 site: bookdown::bookdown_site
@@ -17,4 +17,6 @@ Text.
 
 Mehr Text.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/doRXc2NVh4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="yt-container">
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+</div>
