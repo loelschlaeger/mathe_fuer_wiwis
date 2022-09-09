@@ -1,3 +1,9 @@
+eq:pot1
+eq:pot2
+eq:pot3
+eq:pot4
+eq:pot5
+eq:pot6
 eq:binom1
 eq:binom2
 eq:binom3
@@ -11,9 +17,12 @@ distributivgesetz
 brüche
 prozente
 potenzen
+potenzgesetze
 binomische-formeln
 wurzeln
+wurzelgesetze
 logarithmen
+logarithmengesetze
 gleichungen
 gleichungssysteme
 ungleichungen
