@@ -1,7 +1,7 @@
 --- 
 title: "Mathe für WiWis"
 author: "Lennart Oelschläger"
-date: "03.09.2022"
+date: "09.09.2022"
 description: |
   Inhalte der einführenden Mathe Vorlesungen für Wirtschaftswissenschaftler
 site: bookdown::bookdown_site
@@ -11,20 +11,22 @@ url: https://loelschaeger.de/mathe_fuer_wiwis
 
 # Willkommen {-}
 
-Wirtschaftswissenschaftler beschäftigen sich zu Beginn des Studiums mit Mathematik. Das bildet die Grundlage für viele Vorlesungen in fortgeschrittenen Semestern. 
+Von Ökonomen wird erwartet, dass sie gut rechnen und logisch denken können. Deshalb beschäftigen sich angehende Wirtschaftswissenschaftler zu Studienbeginn viel mit Mathematik. Das bildet die Grundlage für Vorlesungen in fortgeschrittenen Semestern. 
 
-::: {.rmdimportant}
-Dieses Buch entsteht noch.
+Mathematik an Hochschulen wird anders gelehrt als an Schulen. Bei einigen Studienanfängern stößt die neue, formalere Ausrichtung auf wenig Gegenliebe. Lass uns gemeinsam Anfangshürden überwinden!
+
+::: {.rmdwarning}
+Dieses eBook entsteht während des Wintersemesters 2022/23 und des Sommersemesters 2023.
 :::
 
 ## Inhalte {-}
 
-Siehe Inhaltsverzeichnis links. Start mit Vorkurs zur Wiederholung der Schulmathematik. Dann typische Themen der ersten beiden Semester Mathematik an der Universität, von Aussagenlogik bis ...
+Wir besprechen die typischen Themen der Mathematik Vorlesung in den ersten beiden Semestern des Wirtschaftsstudiums, von Aussagenlogik bis Optimierung.
 
 ## Dein Feedback {-}
 
-Siehe "Edit this page".
+Ich freue mich über jeden Verbesserungsvorschlag, der mir [per E-Mail](mailto:oelschlaeger.lennart@gmail.com) zugesendet wird.
 
 ## Über mich {-}
 
-Ich bin Lennart.
+Ich bin Lennart, habe Mathe studiert und promoviere gerade in Statistik an der Uni Bielefeld.

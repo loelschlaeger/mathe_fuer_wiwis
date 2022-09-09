@@ -5,7 +5,7 @@
   padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
-/* Then style the iframe to fit in the container div with full height and width */
+/* Style the iframe to fit in the container div with full height and width */
 .responsive-iframe {
   position: absolute;
   top: 0;
@@ -16,34 +16,38 @@
   height: 100%;
 }
 
-.rmdcaution {
-  padding: 1em;
-  background: white;
-  color: #dc3545;
-  border: 2px solid orange;
-  border-radius: 10px;
-}
-
-.rmdimportant {
-  padding: 1em;
-  background: white;
-  color: #198754;
-  border: 2px solid orange;
-  border-radius: 10px;
-}
-
+/* Info Box for tips. Used via ::: {.rmdtip} Text :::  */
 .rmdtip {
   padding: 1em;
   background: white;
-  color: #0dcaf0;
-  border: 2px solid orange;
-  border-radius: 10px;
+  border: 2px solid #23483C;
 }
 
+/* Info Box for warnings. Used via ::: {.rmdwarning} Text :::  */
 .rmdwarning {
   padding: 1em;
   background: white;
-  color: #ffc107;
-  border: 2px solid orange;
-  border-radius: 10px;
+  border: 2px solid red;
+}
+
+/* Box for solutions. */
+.solutionbox {
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  display: none;
+}
+
+/* Button for solutions. */
+.button{
+	background: white;
+  padding: 10px;
+  color: #23483C;
+  border: 2px solid #23483C;  
+    
+}
+.button:hover{
+	background: #23483C;
+	color: white;
 }

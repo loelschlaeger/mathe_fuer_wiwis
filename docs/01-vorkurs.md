@@ -1,45 +1,38 @@
 # Vorkurs
 
-Wiederholung der Schulmathematik.
-
-::: {.rmdcaution}
-rmdcaution
-:::
-
-::: {.rmdimportant}
-rmdimportant
-:::
-
-::: {.rmdtip}
-rmdtip
-:::
-
-::: {.rmdwarning}
-rmdwarning
-:::
-
-::: {.theorem}
-Es gilt
-\begin{equation}
-f\left(k\right)=\binom{n}{k}p^k\left(1-p\right)^{n-k} (\#eq:binom)
-\end{equation}
-:::
-
-::: {.proof}
-Das ist der Beweis.
-:::
+Lass uns zunächst die Grundlagen der Schulmathematik wiederholen. Am Ende des Kapitels kannst du dich mit einem [Video Quiz](#bereit-f%C3%BCr-die-universit%C3%A4tsmathematik) testen, ob du gut für die Universitätsmathematik vorbereitet bist.
 
 ## Vorrangsregeln 
 
-Was ist das Ergebnis von $1 + 6 : 2 \cdot (1+2)$? Eingeklammerte Bereiche werden zuerst aufgelöst, danach gilt "Punkt- vor Strichrechnung" (Multiplikation und Division vor Addition und Subtraktion). Gleichrangige Operationen werden von links nach rechts berechnet. Die Lösung lautet also: $1 + 6 : 2 \cdot (1+2) = 1 + 6 : 2 \cdot 3 = 1 + 3 \cdot 3 = 10.$
+Was ist das Ergebnis von $3 - 5 : (2 \cdot (3 - 4) + 1)$? Eingeklammerte Bereiche werden zuerst aufgelöst, danach gilt "Punkt- vor Strichrechnung" (Multiplikation und Division vor Addition und Subtraktion). Gleichrangige Operationen werden von links nach rechts berechnet. 
+
+<button class="button" onclick="reveal('button1')">Zu welchem Ergebnis kommst du?</button>
+
+<div id="button1" class="solutionbox" style="display:none">
+  \begin{align*}
+    3 - 5 : (2 \cdot (3 - 4) + 1) &= 3 - 5 : (2 \cdot (-1) + 1) \\ &= 3 - 5 : (-2 + 1) \\ &= 3 - 5 : (-1) \\ &= 3 - (-5) \\ &= 8
+  \end{align*}
+</div>
 
 ## Kommutativgesetz 
 
-Für beliebige Zahlen $a$ und $b$ gilt $a + b$ = $b + a$ und $a \cdot b$ = $b \cdot a$. Man sagt dazu, dass Addition und Multiplikation *kommutativ* sind. Für Subtraktion und Division gilt das nicht.
+Für beliebige Zahlen $a$ und $b$ gilt $a + b$ = $b + a$ und $a \cdot b$ = $b \cdot a$. Man sagt dazu, dass Addition und Multiplikation *kommutativ* sind. 
+
+<button class="button" onclick="reveal('button2')">Gilt das auch für Subtraktion und Division?</button>
+
+<div id="button2" class="solutionbox" style="display:none">
+Nein, denn zum Beispiel $1-2 = -1 \neq 1 = 2-1$ und $1:2 = 0.5 \neq 2 = 2:1$.
+</div>
 
 ## Assoziativgesetz
 
 Rechenoperationen, bei denen die Klammerung keinen Einfluss auf das Ergebnis hat, nennt man *assoziativ*. Das gilt wieder für Addition und Multiplikation, aber nicht für Subtraktion und Division: $a + b + c = a + (b + c) = (a + b) + c$ und $a \cdot b \cdot c = a \cdot (b \cdot c) = (a \cdot b) \cdot c$.^[Wenn Variablen im Spiel sind werden die Multiplikationspunkte häufig weggelassen: $a \cdot b = ab$. Bei zwei Zahlen führt das aber zu Verwirrung: $3 \cdot 3 \neq 33$.]
+
+<button class="button" onclick="reveal('button3')">Gegenbeispiele, dass Subtraktion und Division nicht assoziativ sind?</button>
+
+<div id="button3" class="solutionbox" style="display:none">
+Zum Beispiel $1-(2-3) = 2 \neq -4 = (1-2)-3$ und $8:(4:2) = 4 \neq 2 = (8:4):2$.
+</div>
 
 ## Distributivgesetz 
 
@@ -49,9 +42,12 @@ Schonmal ausgeklammert oder ausmultipliziert? Die Umformung $3x^2 - 6xy = 3x(x -
 
 Brüche benötigen wir, wenn etwas Ganze unterteilt wird: Eine Pizza wird in vier Stücke geschnitten, ich nehme mir eines weg, dann bleiben noch $\frac34$ der Pizza übrig. Die Zahl über dem Bruchstrich (hier die 3) nennt man *Zähler*, die untere Zahl (4) *Nenner*. Ein Bruchstrich ist das gleiche wie ein Divisionszeichen: $\frac34 = 3 : 4 = 0.75$.
 
-::: {.rmdcaution}
-Der Nenner eines Bruches darf nie Null sein. Das ist gleichbedeutend damit, dass man nicht durch Null teilen darf. Der Zähler eines Bruches kann Null sein. In diesem Fall ist der Bruch gleich Null.
-::: 
+<button class="button" onclick="reveal('button5')">Können Zähler oder Nenner den Wert Null haben?</button>
+
+<div id="button5" class="solutionbox" style="display:none">
+Der Nenner eines Bruches darf nie Null sein. Das ist gleichbedeutend damit, dass man nicht durch Null teilen darf. 
+Der Zähler eines Bruches kann Null sein. In diesem Fall ist der Bruch gleich Null.
+</div>
 
 ### Erweitern und Kürzen {-}
 
@@ -91,10 +87,6 @@ Das kann man durch [Ausmultiplizieren](#distributivgesetz) selbst überprüfen.^
 
 ## Gleichungen 
 
-<div class="yt-container">
-  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
-</div>
-
 ## Gleichungssysteme 
 
 ## Ungleichungen 
@@ -108,3 +100,11 @@ Das kann man durch [Ausmultiplizieren](#distributivgesetz) selbst überprüfen.^
 ## Integration 
 
 ## Summen- und Produktzeichen 
+
+## Bereit für die Universitätsmathematik?
+
+<div class="yt-container">
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+</div>
+
+

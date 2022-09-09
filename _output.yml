@@ -5,3 +5,5 @@ bookdown::bs4_book:
     base_font: 
       google: Sen
   repo: https://github.com/loelschlaeger/mathe_fuer_wiwis
+  includes:
+    in_header: header.html
