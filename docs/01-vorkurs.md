@@ -45,15 +45,14 @@ Brüche benötigen wir, wenn etwas Ganze unterteilt wird: Eine Pizza wird in vie
 <button class="button" onclick="reveal('button5')">Können Zähler oder Nenner den Wert Null haben?</button>
 
 <div id="button5" class="solutionbox" style="display:none">
-Der Nenner eines Bruches darf nie Null sein. Das ist gleichbedeutend damit, dass man nicht durch Null teilen darf. 
-Der Zähler eines Bruches kann Null sein. In diesem Fall ist der Bruch gleich Null.
+Der Nenner eines Bruches darf nie Null sein. Das ist gleichbedeutend damit, dass man nicht durch Null teilen darf. Der Zähler eines Bruches kann Null sein. In diesem Fall ist der Bruch gleich Null.
 </div>
 
 ### Erweitern und Kürzen {-}
 
 Wenn man Zähler und Nenner mit der gleichen Zahl multipliziert nennt man das *Erweitern* ($\frac34 = \frac{2\cdot 3}{2\cdot 4} = \frac68$), wenn man Zähler und Nenner durch die gleiche Zahl dividiert nennt man das *Kürzen* ($\frac24 = \frac{2:2}{4:2}=\frac{1}{2}$).
 
-### Addition von Brüchen {-}
+### Addition und Subtraktion von Brüchen {-}
 
 Zwei Brüche können addiert (oder subtrahiert) werden, wenn sie den gleichen Nenner haben. Der Zähler wird dann addiert (oder subtrahiert), der Nenner bleibt der gleiche: $\frac14+\frac24=\frac{1+2}{4}=\frac34$ oder $\frac14-\frac24=\frac{1-2}{4}=-\frac{1}{4}$.^[Ein Minuszeichen im Zähler (oder Nenner) kann einfach vor den Bruch geschrieben werden: $\frac{-1}{4} = \frac{1}{4} = \frac{1}{-4}$.] Wenn die Brüche keinen gemeinsamen Nenner haben, müssen sie vorher erweitert werden: $\frac12+\frac13 = \frac36 +\frac26 = \frac56$.
 
