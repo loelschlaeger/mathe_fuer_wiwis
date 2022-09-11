@@ -225,23 +225,3 @@ $$1 \cdot 3 \cdot 5 \cdot 7 = \prod_{k=0}^3 2k+1.$$
 <div class="yt-container">
   <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
 </div>
-
-Was ist das Ergebnis von $6 : 2(1+2)$?
-
-Wie nennt man das Rechengesetz $a + (b + c) = (a + b) + c$?
-
-Was ist das Ergebnis von $\frac{3:4}{4:3}$?
-
-Ist $2/7$ größer als $3/9$?
-
-Gilt $3^{-2} = \frac19$?
-
-Wie viel Promille sind $5\%$ von $10%$?
-
-Was ist der Definitionsbereich der Funktion $f(x) = \frac{1}{3+x}$?
-
-Wie viele Lösungen hat die Gleichung $|x - 1| = 2$?
-
-Gilt $(a+b)^2 = a^2 + b^2?$
-
-Was ist das Ergebnis von $\sum_{i=1}^3 i$?
