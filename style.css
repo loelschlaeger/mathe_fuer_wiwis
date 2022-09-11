@@ -33,13 +33,12 @@
 /* Box for solutions. */
 .solutionbox {
   width: 100%;
-  text-align: center;
   margin: 10px;
   padding: 10px;
   display: none;
 }
 
-/* Button for solutions. */
+/* Button (for solutions). */
 .button{
 	background: white;
   padding: 10px;
