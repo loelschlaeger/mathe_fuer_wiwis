@@ -25,6 +25,9 @@ jobs:
 
       - name: Install xml2
         run: Rscript -e 'install.packages("xml2")'
+        
+      - name: Install ggplot2
+        run: Rscript -e 'install.packages("ggplot2")'
       
       - name: Render book
         run: Rscript -e 'bookdown::render_book()'

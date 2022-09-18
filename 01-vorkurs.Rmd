@@ -1,6 +1,14 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  out.width = "100%"
+)
+library("ggplot2")
+```
+
 # Vorkurs
 
-Lass uns zunächst die Grundlagen der Schulmathematik wiederholen. Am Ende des Kapitels kannst du dich mit einem [Video Quiz](#fit-f%C3%BCr-die-universit%C3%A4tsmathematik) testen.
+Wir wiederholen zunächst die Grundlagen der Schulmathematik. Am Ende des Kapitels kannst du dich mit einem [Video Quiz](#fit-f%C3%BCr-die-universit%C3%A4tsmathematik) testen.
 
 ## Vorrangsregeln 
 
@@ -204,6 +212,30 @@ Eine Funktion ist eine Abbildung zwischen zwei Mengen, typischerweise zwei Menge
 Wir lösen die [Gleichung](#gleichungen) $f(x) = 0 \Leftrightarrow x^2 - 4 = 0 \Leftrightarrow x^2 = 4$ und erhalten die zwei Lösungen (Nullstellen) $x_1 = 2$ und $x_2 = -2$.
 </div>
 
+### Ableitung
+
+Die Ableitung einer Funktion $f(x)$ ist eine Funktion $f'(x)$, die für jedes $x$ die Änderungsrate von $f$ berechnet.
+
+```{r ableitung, echo = FALSE}
+f <- function(x) x^2
+ggplot() + 
+  xlim(-3,3) +
+  geom_function(fun = f) +
+  theme_classic()
+```
+
+### Integration
+
+Das Integral einer Funktion ist die Fläche unter der Funktion
+
+```{r integral, echo = FALSE}
+f <- function(x) x^2
+ggplot() + 
+  xlim(-3,3) +
+  geom_function(fun = f) +
+  theme_classic()
+```
+
 ## Summenzeichen
 
 Den griechischen Buchstaben $\displaystyle \sum$ (Sigma) verwenden Mathematiker um Summen verkürzt aufzuschreiben. Zum Beispiel kannst du $x_1 + x_2 + x_3 + x_4$ als $\displaystyle \sum_{i=1}^4 x_i$ (sprich *die Summe von $i$ gleich 1 bis 4 über $x_i$*) schreiben. Beachte, dass der Ausdruck $x_i$ einen Index $i$ hat, für den die Zahlen $1$ bis $4$ eingesetzt werden.
@@ -211,7 +243,7 @@ Den griechischen Buchstaben $\displaystyle \sum$ (Sigma) verwenden Mathematiker 
 <button class="button" onclick="reveal('button13')">Wie lautet das Ergebnis von $\displaystyle \sum_{i=-2}^2 i$?</button>
 
 <div id="button13" class="solutionbox" style="display:none">
-$$\sum_{i=-2}^2 i = -2 + -1 + 0 + 1 + 2 = 0$$
+$$\sum_{i=-2}^2 i = (-2) + (-1) + 0 + 1 + 2 = 0$$
 </div>
 
 ## Produktzeichen 
