@@ -39,12 +39,12 @@ Rechenoperationen, bei denen die Klammerung keinen Einfluss auf das Ergebnis hat
 <button class="button" onclick="reveal('button3')">Gegenbeispiele, dass Subtraktion und Division nicht assoziativ sind?</button>
 
 <div id="button3" class="solutionbox" style="display:none">
-Zum Beispiel $1-(2-3) = 2 \neq -4 = (1-2)-3$ und $8:(4:2) = 4 \neq 2 = (8:4):2$.
+Zum Beispiel $1-(2-3) = 2 \neq -4 = (1-2)-3$ und $8:(4:2) = 4 \neq 1 = (8:4):2$.
 </div>
 
 ## Distributivgesetz 
 
-Wann hast du das letzte Mal ausgeklammert oder ausmultipliziert? Die Umformung $3x^2 - 6xy = 3x(x - 2y)$ nennt man *Ausklammern* (von $3x$), die Umformung $3(a+2b) = 3a + 6b$ *Ausmultiplizieren*. Die Rechtfertigung dafür liefert das Distributivgesetz: $a \cdot (b \pm c) = a \cdot b \pm a \cdot c$.^[Das Zeichen $\pm$ ist eine Kurzschreibweise und meint, dass beide Male Plus oder beide Male Minus eingesetzt wird.]
+Die Umformung $3x^2 - 6xy = 3x(x - 2y)$ nennt man *Ausklammern* (von $3x$), die Umformung $3(a+2b) = 3a + 6b$ *Ausmultiplizieren*. Die Rechtfertigung dafür liefert das Distributivgesetz: $a \cdot (b \pm c) = a \cdot b \pm a \cdot c$.^[Das Zeichen $\pm$ ist eine Kurzschreibweise und meint, dass beide Male Plus oder beide Male Minus eingesetzt wird.]
 
 ## Brüche
 
@@ -201,7 +201,6 @@ Fall 2: $-(2x-9) = 3 \Leftrightarrow -2x + 9 = 3 \Leftrightarrow -2x = -6 \Leftr
 Also lösen $x=6$ und $x=3$ die Betragsgleichung.
 </div>
 
-
 ## Funktionen 
 
 Eine Funktion ist eine Abbildung zwischen zwei Mengen, typischerweise zwei Mengen an Zahlen, die jedem Element der einen Menge genau ein Element der anderen Menge zuordnet. Die Funktion $f(x) = x^2$ zum Beispiel erhält die Zahl $x$ und gibt das Quadrat von $x$ zurück. Die Menge möglicher Eingabewerte nennt man *Definitionsbereich*, die Menge der Ausgabewerte nennt man *Wertebereich*.
@@ -211,30 +210,6 @@ Eine Funktion ist eine Abbildung zwischen zwei Mengen, typischerweise zwei Menge
 <div id="button12" class="solutionbox" style="display:none">
 Wir lösen die [Gleichung](#gleichungen) $f(x) = 0 \Leftrightarrow x^2 - 4 = 0 \Leftrightarrow x^2 = 4$ und erhalten die zwei Lösungen (Nullstellen) $x_1 = 2$ und $x_2 = -2$.
 </div>
-
-### Ableitung
-
-Die Ableitung einer Funktion $f(x)$ ist eine Funktion $f'(x)$, die für jedes $x$ die Änderungsrate von $f$ berechnet.
-
-```{r ableitung, echo = FALSE}
-f <- function(x) x^2
-ggplot() + 
-  xlim(-3,3) +
-  geom_function(fun = f) +
-  theme_classic()
-```
-
-### Integration
-
-Das Integral einer Funktion ist die Fläche unter der Funktion
-
-```{r integral, echo = FALSE}
-f <- function(x) x^2
-ggplot() + 
-  xlim(-3,3) +
-  geom_function(fun = f) +
-  theme_classic()
-```
 
 ## Summenzeichen
 
