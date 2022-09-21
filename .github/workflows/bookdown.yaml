@@ -32,18 +32,6 @@ jobs:
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
           renv::restore()
       
-      - name: Install bookdown
-        run: Rscript -e 'install.packages("bookdown")'
-
-      - name: Install downlit
-        run: Rscript -e 'install.packages("downlit")'
-
-      - name: Install xml2
-        run: Rscript -e 'install.packages("xml2")'
-        
-      - name: Install ggplot2
-        run: Rscript -e 'install.packages("ggplot2")'
-      
       - name: Render book
         run: Rscript -e 'bookdown::render_book()'
       
