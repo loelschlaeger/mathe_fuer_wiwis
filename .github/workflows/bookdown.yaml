@@ -31,6 +31,12 @@ jobs:
         run: |
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
           renv::restore()
+          
+      - name: Install downlit
+        run: Rscript -e 'install.packages("downlit")'
+
+      - name: Install xml2
+        run: Rscript -e 'install.packages("xml2")'
       
       - name: Render book
         run: Rscript -e 'bookdown::render_book()'
