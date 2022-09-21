@@ -11,19 +11,19 @@ url: https://loelschaeger.de/mathe_fuer_wiwis
 
 # Willkommen {-}
 
-Von Ökonomen wird erwartet, dass sie gut rechnen und logisch denken können. Deshalb beschäftigen sich angehende Wirtschaftswissenschaftler ab Studienbeginn mit Mathematik. Mathematik wird an Hochschulen anders gelehrt als an Schulen. Viele Studienanfängern sind der neuen, formaleren Ausrichtung zunächst wenig zugeneigt. Lass uns gemeinsam anfängliche Hürden überwinden!
+Von Ökonomen wird erwartet, dass sie gut rechnen und logisch denken können. Deshalb beschäftigen sich angehende Wirtschaftswissenschaftler ab Studienbeginn mit Mathematik. An den meisten Hochschulen wird Mathematik deutlich formaler gelehrt als an Schulen. Viele Studienanfängern sind der neuen Ausrichtung zunächst wenig zugeneigt. Lass uns gemeinsam anfängliche Hürden überwinden!
 
 ::: {.rmdwarning}
-Dieses eBook entsteht während des Wintersemesters 2022/23 und des Sommersemesters 2023 und wird laufend überarbeitet.
+Dieses eBook entsteht während des Wintersemesters 2022/23 und des Sommersemesters 2023 und wird laufend überarbeitet. [Benachrichtige mich](#dein-feedback) bitte bei Fehlern oder Ergänzungswünschen.
 :::
 
 ## Inhalte {-}
 
-Wir besprechen die typischen Themen der Mathematik Vorlesung in den ersten Semestern des Wirtschaftsstudiums, von [Aussagenlogik](aussagenlogik.html) bis [Optimierung](optimierung.html).
+Wir besprechen die klassischen Themen der Mathematik Vorlesung in den ersten Semestern des Wirtschaftsstudiums, von [Aussagenlogik](aussagenlogik.html) bis [Optimierung](optimierung.html). Jedes Kapitel enthält Übungsaufgaben, die Lösungen gibt es als Video.
 
 ## Über mich {-}
 
-Ich bin Lennart, habe Wirtschaftsmathematik studiert und promoviere gerade in Statistik an der Uni Bielefeld. Mehr über mich steht auf [meiner Webseite](https://loelschlaeger.de/).
+Ich bin Lennart, habe Wirtschaftsmathematik studiert und promoviere gerade in Statistik an der Uni Bielefeld. Etwas mehr über mich steht auf [meiner Webseite](https://loelschlaeger.de/).
 
 ## Dein Feedback {-}
 
