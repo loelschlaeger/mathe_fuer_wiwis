@@ -41,3 +41,6 @@ implikationen-und-äquivalenz
 allquantor-und-existenzquantor
 beweise
 mengenlehre
+zahlenmengen
+kartesisches-produkt
+relationen
