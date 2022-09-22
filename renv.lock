@@ -53,10 +53,10 @@
     },
     "bookdown": {
       "Package": "bookdown",
-      "Version": "0.27",
+      "Version": "0.29",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "249ccee87c5a8def5cb459fd0809cca4",
+      "Hash": "bf913e433c84b3a616a9ea6ee0bf0b14",
       "Requirements": [
         "htmltools",
         "jquerylib",
