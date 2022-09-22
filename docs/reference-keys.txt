@@ -32,7 +32,6 @@ betrag
 funktionen
 summenzeichen
 produktzeichen
-fit-für-die-universitätsmathematik
 aussagenlogik
 was-ist-eine-aussage
 verknüpfung-von-aussagen

@@ -1,8 +1,10 @@
-
-
 # Vorkurs
 
-Wir wiederholen zunächst die Grundlagen der Schulmathematik. Am Ende des Kapitels kannst du dich mit einem [Video Quiz](#fit-f%C3%BCr-die-universit%C3%A4tsmathematik) testen.
+Sind die Grundlagen der Schulmathematik noch gut bei dir abrufbar? Du kannst dich mit einem Video Quiz selbst testen und dann entweder dieses Kapitel überspringen oder ein paar Themen wiederholen.
+
+<div class="yt-container">
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+</div>
 
 ## Vorrangsregeln 
 
@@ -107,7 +109,7 @@ a^{r-s} &= \frac{a^r}{a^s} (\#eq:pot2) \\
 <button class="button" onclick="reveal('button8')">Für welche Exponenten gilt $(-a)^r = a^r$?</button>
 
 <div id="button8" class="solutionbox" style="display:none">
-Das gilt für alle geraden Zahlen $r$. Um das zu zeigen benötigen wir \@ref(eq:pot3), \@ref(eq:pot5) und die Erkenntnis, dass sich jede gerade Zahl $r$ als $2\cdot s$ für eine beliebige Zahl $s$ ausdrücken lässt:
+Das gilt für alle geraden Zahlen $r$. Um das zu zeigen benötigen wir \@ref(eq:pot3), \@ref(eq:pot5) und die Erkenntnis, dass sich jede gerade Zahl $r$ als $2\cdot s$ für eine beliebige Zahl $s$ ausdrücken lässt:^[Wir werden diese Aussage [im nächsten Kapitel](aussagenlogik.html#beweise) formal beweisen.]
 \begin{align*}
 (-a)^r &= (-1 \cdot a)^{r} \\
        &= (-1)^r \cdot a^r \\
@@ -219,10 +221,3 @@ $$\sum_{i=-2}^2 i = (-2) + (-1) + 0 + 1 + 2 = 0$$
 
 Analog zum Summenzeichen können Produkt mit dem Produktzeichen $\displaystyle \prod$ (der griechische Buchstabe Pi) verkürzt werden, zum Beispiel 
 $$1 \cdot 3 \cdot 5 \cdot 7 = \prod_{k=0}^3 2k+1.$$
-
-
-## Fit für die Universitätsmathematik?
-
-<div class="yt-container">
-  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
-</div>

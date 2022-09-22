@@ -16,5 +16,5 @@ language:
     exr: 'Übung '
     hyp: 'Hypothese '
     proof: 'Beweis. '
-    remark: 'Anmkerung. '
+    remark: 'Anmerkung. '
     solution: 'Lösung. '

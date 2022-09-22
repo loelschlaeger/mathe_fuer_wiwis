@@ -7,3 +7,4 @@ bookdown::bs4_book:
   repo: https://github.com/loelschlaeger/mathe_fuer_wiwis
   includes:
     in_header: header.html
+  template: bs4_book_ger.html
