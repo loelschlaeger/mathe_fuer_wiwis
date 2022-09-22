@@ -8,9 +8,9 @@ Sind die Grundlagen der Schulmathematik noch gut bei dir abrufbar? Du kannst dic
 
 ## Vorrangsregeln 
 
-Was ist das Ergebnis von $3 - 5 : (2 \cdot (3 - 4) + 1)$? Eingeklammerte Bereiche werden zuerst aufgelöst, danach gilt "Punkt- vor Strichrechnung" (Multiplikation und Division vor Addition und Subtraktion). Gleichrangige Operationen werden von links nach rechts berechnet. 
+Eingeklammerte Bereiche werden zuerst aufgelöst, danach gilt "Punkt- vor Strichrechnung" (Multiplikation und Division vor Addition und Subtraktion). Gleichrangige Operationen werden von links nach rechts berechnet. 
 
-<button class="button" onclick="reveal('button1')">Zu welchem Ergebnis kommst du?</button>
+<button class="button" onclick="reveal('button1')">Was ist also das Ergebnis von $3 - 5 : (2 \cdot (3 - 4) + 1)$?</button>
 
 <div id="button1" class="solutionbox" style="display:none">
   \begin{align*}
@@ -46,21 +46,11 @@ Die Umformung $3x^2 - 6xy = 3x(x - 2y)$ nennt man *Ausklammern* (von $3x$), die 
 
 Brüche benötigen wir, wenn etwas Ganzes unterteilt wird: Eine Pizza wird in vier Stücke geschnitten, ich nehme mir eines weg, dann bleibt noch $\frac34$ der Pizza übrig. Die Zahl über dem Bruchstrich (hier die 3) nennt man *Zähler*, die untere Zahl (4) *Nenner*. Ein Bruchstrich ist das gleiche wie ein Divisionszeichen: $\frac34 = 3 : 4 = 0.75$.
 
-<button class="button" onclick="reveal('button4')">Können Zähler oder Nenner den Wert Null haben?</button>
-
-<div id="button4" class="solutionbox" style="display:none">
 Der Nenner eines Bruches darf nie Null sein. Das ist gleichbedeutend damit, dass man nicht durch Null teilen darf. Der Zähler eines Bruches kann Null sein. In diesem Fall ist der Bruch gleich Null.
-</div>
-
-### Erweitern und Kürzen 
 
 Wenn man Zähler und Nenner mit der gleichen Zahl multipliziert nennt man das *Erweitern* ($\frac34 = \frac{2\cdot 3}{2\cdot 4} = \frac68$), wenn man Zähler und Nenner durch die gleiche Zahl dividiert nennt man das *Kürzen* ($\frac24 = \frac{2:2}{4:2}=\frac{1}{2}$).
 
-### Addition und Subtraktion von Brüchen 
-
 Zwei Brüche können addiert (oder subtrahiert) werden, wenn sie den gleichen Nenner haben. Der Zähler wird dann addiert (oder subtrahiert), der Nenner bleibt der gleiche: $\frac14+\frac24=\frac{1+2}{4}=\frac34$ oder $\frac14-\frac24=\frac{1-2}{4}=-\frac{1}{4}$.^[Ein Minuszeichen im Zähler (oder Nenner) kann einfach vor den Bruch geschrieben werden: $\frac{-1}{4} = \frac{1}{4} = \frac{1}{-4}$.] Wenn die Brüche keinen gemeinsamen Nenner haben, müssen sie vorher erweitert werden: $\frac12+\frac13 = \frac36 +\frac26 = \frac56$.
-
-### Multiplikation und Division von Brüchen 
 
 Multiplikation von Brüchen ist einfacher, hier werden Zähler und Nenner jeweils multipliziert. Zwei Brüche werden dividiert indem ein Bruch mit dem Kehrwert^[Den Kehrwert eines Bruchs bildest du, indem du Zähler und Nenner vertauscht. Der Kehrwert von $\frac37$ ist also $\frac73$.] des anderen Bruches multipliziert wird.
 
@@ -79,7 +69,7 @@ Prozente sind spezielle Brüche, die immer den Nenner $100$ haben.^[Promille hab
 <button class="button" onclick="reveal('button6')">Wenn $42$ genau $7\%$ sind, welcher Wert entspricht dann $100\%$?</button>
 
 <div id="button6" class="solutionbox" style="display:none">
-Wenn $42$ genau $7\%$ sind, dann sind $42:7=6$ genau $1\%$ und somit entspricht $6\cdot 100 = 600$ den $100\%$.
+Wenn $42$ genau $7\%$ sind, dann sind $42:7=6$ genau $1\%$ und somit entspricht $6\cdot 100 = 600$ den $100\%$ - ein typischer *Dreisatz*.
 </div>
 
 ## Potenzen 
@@ -92,11 +82,7 @@ Während das Multiplizieren eine abkürzende Schreibweise für das wiederholte S
 Es gilt $a^r = \underbrace{a\cdot a \cdot a \cdot \dots \cdot a}_{r~\text{mal}} \cdot 1$, da Multiplizieren mit der Zahl 1 nichts verändert. Im Fall $r = 0$ steht die 1 ganz alleine da, also $a^0 = 1$.
 </div>
 
-### Negative Exponenten
-
-Man definiert $\displaystyle a^{-r} := \frac{1}{a^r}.$
-
-### Potenzgesetze
+Der Exponent kann negativ sein. Man definiert $\displaystyle a^{-r} := \frac{1}{a^r}.$ Außerdem gelten diese Rechengesetze:
 
 \begin{align}
 a^{r+s} &= a^r \cdot a^s (\#eq:pot1) \\
@@ -121,9 +107,9 @@ Das gilt für alle geraden Zahlen $r$. Um das zu zeigen benötigen wir \@ref(eq:
 \end{align*}
 </div>
 
-### Binomische Formeln 
+## Binomische Formeln 
 
-Achtung: $(a+b)^2 \neq a^2 + b^2$. Es gilt nämlich
+Aber Achtung: $(a+b)^2 \neq a^2 + b^2$.^[... wenn nicht gerade $a=0$ oder $b=0$.] Es gilt nämlich
 
 \begin{equation}
 (a+b)^2 = a^2+2ab+b^2, (\#eq:binom1)
@@ -147,17 +133,15 @@ Achtung: $(a+b)^2 \neq a^2 + b^2$. Es gilt nämlich
 
 ## Wurzeln
 
-Wurzeln sind nichts anderes als Potenzen. Man definiert *die $n$-te Wurzel aus $a$* als $\displaystyle\sqrt[n]{a} := a^\frac{1}{n}$. Die Quadratwurzel ist der Spezialfall $n = 2$: $\displaystyle\sqrt[2]{a} := \sqrt{a} := a^\frac{1}{2}$. Wurzeln sind nützlich um Potenzen aufzulösen, denn $\displaystyle \sqrt[n]{a^n} = (a^n)^\frac{1}{n} = a^{n\cdot \frac{1}{n}} = a$ gemäß \@ref(eq:pot5).
+Wurzeln sind nichts anderes als Potenzen. Man definiert *die $n$-te Wurzel aus $a$* als $\displaystyle\sqrt[n]{a} := a^\frac{1}{n}$. Die Quadratwurzel ist der Spezialfall $n = 2$: $\displaystyle\sqrt[2]{a} := \sqrt{a} := a^\frac{1}{2}$. Wurzeln können Potenzen aufzulösen, denn $\displaystyle \sqrt[n]{a^n} = (a^n)^\frac{1}{n} = a^{n\cdot \frac{1}{n}} = a$ gemäß \@ref(eq:pot5).
 
 ## Gleichungen
 
-Das [Kommutativgesetz](#kommutativgesetz) für die Addition ($a+b = b+a$) ist ein Beispiel für eine Gleichung: der Term links des Gleichheitszeichens $=$ ist *gleich*^[genau so groß, identisch, äquivalent] dem Term auf der rechten Seite.
-
-### Umformungen
+Das [Kommutativgesetz](#kommutativgesetz) für die Addition ($a+b = b+a$) ist ein Beispiel für eine Gleichung: der Term links des Gleichheitszeichens $=$ ist *gleich* (genau so groß, identisch) dem Term auf der rechten Seite.
 
 Eine Gleichung bleibt erhalten, wenn auf beiden Seiten der Gleichung die gleichen Umformungen vorgenommen werden: Wenn $x + 2 = 3$ gilt, dann gilt auch $x + 2 - 2 = 3 - 2$ und auch $x = 1$. Wir haben hier *die Gleichung nach $x$ aufgelöst* indem wir auf beiden Seiten $2$ subtrahiert haben; $x = 1$ ist *die Lösung der Gleichung*. Verkürzt kann man die Umformung mit dem Äquivalenzpfeil aufgeschreiben: $x + 2 = 3 \Leftrightarrow x = 1$. 
 
-### p-q-Formel
+## p-q-Formel
 
 Die *quadratische* Gleichung $x^2 + px + q = 0$ hat zwei Lösungen für $x$:
 
@@ -165,7 +149,7 @@ Die *quadratische* Gleichung $x^2 + px + q = 0$ hat zwei Lösungen für $x$:
 x_{1,2} = -\frac{p}{2} \pm \sqrt{\left(\frac{p}{2}\right)^2 - q} (\#eq:pq)
 \end{equation}
 
-### Ungleichungen 
+## Ungleichungen 
 
 Wir können auch ausdrücken, dass zwei Dinge ungleich sind:
 

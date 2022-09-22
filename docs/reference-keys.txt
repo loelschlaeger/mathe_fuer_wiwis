@@ -15,17 +15,11 @@ kommutativgesetz
 assoziativgesetz
 distributivgesetz
 brüche
-erweitern-und-kürzen
-addition-und-subtraktion-von-brüchen
-multiplikation-und-division-von-brüchen
 prozente
 potenzen
-negative-exponenten
-potenzgesetze
 binomische-formeln
 wurzeln
 gleichungen
-umformungen
 p-q-formel
 ungleichungen
 betrag
