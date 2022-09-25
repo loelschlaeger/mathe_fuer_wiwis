@@ -6,7 +6,7 @@
 
 <!-- badges: end -->
 
-👋 This repository contains the source of [Mathe für WiWis](https://loelschleager.de/mathe_fuer_wiwis) book written by Lennart Oelschläger.
+👋 This repository contains the source of [Mathe für WiWis](https://loelschlaeger.de/mathe_fuer_wiwis) book written by Lennart Oelschläger.
 
 👷 The book is built using the [bookdown](https://bookdown.org/) R package and [GitHub Pages](https://pages.github.com/).
 
