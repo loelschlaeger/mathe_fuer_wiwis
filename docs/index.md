@@ -1,7 +1,7 @@
 --- 
 title: "Mathe für WiWis"
 author: "Lennart Oelschläger"
-date: "23.09.2022"
+date: "25.09.2022"
 description: |
   Inhalte der einführenden Mathe Vorlesungen für Wirtschaftswissenschaftler
 site: bookdown::bookdown_site

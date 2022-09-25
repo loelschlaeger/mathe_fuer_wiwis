@@ -7,8 +7,6 @@ eq:binom1
 eq:binom2
 eq:binom3
 eq:pq
-thm:unlabeled-div-1
-eq:binom
 vorkurs
 vorrangsregeln
 kommutativgesetz
@@ -26,14 +24,3 @@ betrag
 funktionen
 summenzeichen
 produktzeichen
-aussagenlogik
-was-ist-eine-aussage
-verknüpfung-von-aussagen
-wahrheitstafeln
-implikationen-und-äquivalenz
-allquantor-und-existenzquantor
-beweise
-mengenlehre
-zahlenmengen
-kartesisches-produkt
-relationen
