@@ -1,0 +1,207 @@
+# Vorkurs
+
+Sind die Grundlagen der Schulmathematik noch gut bei dir abrufbar? Du kannst dich mit einem Video Quiz selbst testen und dann entweder dieses Kapitel überspringen oder ein paar Themen wiederholen.
+
+<div class="yt-container">
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/GvdNRENFSOE?rel=0&autoplay=0&showinfo=0&controls=0" frameborder="0"></iframe>
+</div>
+
+## Vorrangsregeln 
+
+Eingeklammerte Bereiche werden zuerst aufgelöst, danach gilt "Punkt- vor Strichrechnung" (Multiplikation und Division vor Addition und Subtraktion). Gleichrangige Operationen werden von links nach rechts berechnet. 
+
+<button class="button" onclick="reveal('button1')">Was ist also das Ergebnis von $3 - 5 : (2 \cdot (3 - 4) + 1)$?</button>
+
+<div id="button1" class="solutionbox" style="display:none">
+  \begin{align*}
+    & 3 - 5 : (2 \cdot (3 - 4) + 1) \\ =&~ 3 - 5 : (2 \cdot (-1) + 1) \\ =&~ 3 - 5 : (-2 + 1) \\ =&~ 3 - 5 : (-1) \\ =&~ 3 - (-5) \\ =&~ 8
+  \end{align*}
+</div>
+
+## Kommutativgesetz 
+
+Für beliebige Zahlen $a$ und $b$ gilt $a + b$ = $b + a$ und $a \cdot b$ = $b \cdot a$. Man sagt dazu, dass Addition und Multiplikation *kommutativ* sind. 
+
+<button class="button" onclick="reveal('button2')">Gilt das auch für Subtraktion und Division?</button>
+
+<div id="button2" class="solutionbox" style="display:none">
+Nein, denn zum Beispiel $1-2 = -1 \neq 1 = 2-1$ und $1:2 = 0.5 \neq 2 = 2:1$.
+</div>
+
+## Assoziativgesetz
+
+Rechenoperationen, bei denen die Klammerung keinen Einfluss auf das Ergebnis hat, nennt man *assoziativ*. Das gilt wieder für Addition und Multiplikation, aber nicht für Subtraktion und Division: $a + b + c = a + (b + c) = (a + b) + c$ und $a \cdot b \cdot c = a \cdot (b \cdot c) = (a \cdot b) \cdot c$.^[Wenn Variablen im Spiel sind werden die Multiplikationspunkte häufig weggelassen: $a \cdot b = ab$. Bei zwei Zahlen führt das aber zu Verwirrung: $3 \cdot 3 \neq 33$.]
+
+<button class="button" onclick="reveal('button3')">Gegenbeispiele, dass Subtraktion und Division nicht assoziativ sind?</button>
+
+<div id="button3" class="solutionbox" style="display:none">
+Zum Beispiel $1-(2-3) = 2 \neq -4 = (1-2)-3$ und $8:(4:2) = 4 \neq 1 = (8:4):2$.
+</div>
+
+## Distributivgesetz 
+
+Die Umformung $3x^2 - 6xy = 3x(x - 2y)$ nennt man *Ausklammern* (von $3x$), die Umformung $3(a+2b) = 3a + 6b$ *Ausmultiplizieren*. Die Rechtfertigung dafür liefert das Distributivgesetz: $a \cdot (b \pm c) = a \cdot b \pm a \cdot c$.^[Das Zeichen $\pm$ ist eine Kurzschreibweise und meint, dass beide Male Plus oder beide Male Minus eingesetzt wird.]
+
+## Brüche
+
+Brüche benötigen wir, wenn etwas Ganzes unterteilt wird: Eine Pizza wird in vier Stücke geschnitten, ich nehme mir eines weg, dann bleibt noch $\frac34$ der Pizza übrig. Die Zahl über dem Bruchstrich (hier die 3) nennt man *Zähler*, die untere Zahl (4) *Nenner*. Ein Bruchstrich ist das gleiche wie ein Divisionszeichen: $\frac34 = 3 : 4 = 0.75$.
+
+Der Nenner eines Bruches darf nie Null sein. Das ist gleichbedeutend damit, dass man nicht durch Null teilen darf. Der Zähler eines Bruches kann Null sein. In diesem Fall ist der Bruch gleich Null.
+
+Wenn man Zähler und Nenner mit der gleichen Zahl multipliziert nennt man das *Erweitern* ($\frac34 = \frac{2\cdot 3}{2\cdot 4} = \frac68$), wenn man Zähler und Nenner durch die gleiche Zahl dividiert nennt man das *Kürzen* ($\frac24 = \frac{2:2}{4:2}=\frac{1}{2}$).
+
+Zwei Brüche können addiert (oder subtrahiert) werden, wenn sie den gleichen Nenner haben. Der Zähler wird dann addiert (oder subtrahiert), der Nenner bleibt der gleiche: $\frac14+\frac24=\frac{1+2}{4}=\frac34$ oder $\frac14-\frac24=\frac{1-2}{4}=-\frac{1}{4}$.^[Ein Minuszeichen im Zähler (oder Nenner) kann einfach vor den Bruch geschrieben werden: $\frac{-1}{4} = \frac{1}{4} = \frac{1}{-4}$.] Wenn die Brüche keinen gemeinsamen Nenner haben, müssen sie vorher erweitert werden: $\frac12+\frac13 = \frac36 +\frac26 = \frac56$.
+
+Multiplikation von Brüchen ist einfacher, hier werden Zähler und Nenner jeweils multipliziert. Zwei Brüche werden dividiert indem ein Bruch mit dem Kehrwert^[Den Kehrwert eines Bruchs bildest du, indem du Zähler und Nenner vertauscht. Der Kehrwert von $\frac37$ ist also $\frac73$.] des anderen Bruches multipliziert wird.
+
+<button class="button" onclick="reveal('button5')">Was ist das Ergebnis von $\displaystyle \frac15 + \frac{3:4}{5:2}$?</button>
+
+<div id="button5" class="solutionbox" style="display:none">
+\begin{align*}
+& \frac15 + \frac{3:4}{5:2} = \frac15 +\frac{\frac34}{\frac52} = \frac15+\frac34\cdot\frac25 \\ =&~ \frac15+\frac{6}{20} = \frac{2}{10} + \frac{3}{10} = \frac{5}{10} = \frac12
+\end{align*}
+</div>
+
+## Prozente 
+
+Prozente sind spezielle Brüche, die immer den Nenner $100$ haben.^[Promille haben als Referenzwert die $1000$, nicht die $100$. Also sind $10‰ = 1\%$.] Zum Beispiel ist $1\% = \frac{1}{100}$ und $200\% = \frac{200}{100}=2$. 
+
+<button class="button" onclick="reveal('button6')">Wenn $42$ genau $7\%$ sind, welcher Wert entspricht dann $100\%$?</button>
+
+<div id="button6" class="solutionbox" style="display:none">
+Wenn $42$ genau $7\%$ sind, dann sind $42:7=6$ genau $1\%$ und somit entspricht $6\cdot 100 = 600$ den $100\%$ - ein typischer *Dreisatz*.
+</div>
+
+## Potenzen 
+
+Während das Multiplizieren eine abkürzende Schreibweise für das wiederholte Summieren ist ($4 \cdot 3 = 3+3+3+3$), ist das Potenzieren eine abkürzende Schreibweise für das wiederholte Multiplizieren: $a^r := \underbrace{a\cdot a \cdot a \cdot \dots \cdot a}_{r~\text{mal}}$.^[Das Symbol $:=$ bedeutet *die linke Seite ist definiert durch die rechte Seite*.] Man nennt $a$ *Basis* und $r$ *Exponent*. 
+
+<button class="button" onclick="reveal('button7')">Per Konvention ist $a^0 = 1$. Warum ist das sinnvoll?</button>
+
+<div id="button7" class="solutionbox" style="display:none">
+Es gilt $a^r = \underbrace{a\cdot a \cdot a \cdot \dots \cdot a}_{r~\text{mal}} \cdot 1$, da Multiplizieren mit der Zahl 1 nichts verändert. Im Fall $r = 0$ steht die 1 ganz alleine da, also $a^0 = 1$.
+</div>
+
+Der Exponent kann negativ sein. Man definiert $\displaystyle a^{-r} := \frac{1}{a^r}.$ Außerdem gelten diese Rechengesetze:
+
+\begin{align}
+a^{r+s} &= a^r \cdot a^s (\#eq:pot1) \\
+a^{r-s} &= \frac{a^r}{a^s} (\#eq:pot2) \\
+(a\cdot b)^r &= a^r \cdot b^r (\#eq:pot3) \\
+\left(\frac{a}{b}\right)^r &= \frac{a^r}{b^r} (\#eq:pot4) \\
+(a^r)^s &= a^{r\cdot s} (\#eq:pot5)
+\end{align}
+
+<button class="button" onclick="reveal('button8')">Für welche Exponenten gilt $(-a)^r = a^r$?</button>
+
+<div id="button8" class="solutionbox" style="display:none">
+Das gilt für alle geraden Zahlen $r$. Um das zu zeigen benötigen wir \@ref(eq:pot3), \@ref(eq:pot5) und die Erkenntnis, dass sich jede gerade Zahl $r$ als $2\cdot s$ für eine beliebige Zahl $s$ ausdrücken lässt:^[Wir werden diese Aussage [im nächsten Kapitel](aussagenlogik.html#beweise) formal beweisen.]
+\begin{align*}
+(-a)^r &= (-1 \cdot a)^{r} \\
+       &= (-1)^r \cdot a^r \\
+       &= (-1)^{2 \cdot s} \cdot a^r \\
+       &= ((-1)^2)^s \cdot a^r \\
+       &= 1^s \cdot a^r \\
+       &= 1 \cdot a^r \\
+       &= a^r
+\end{align*}
+</div>
+
+## Binomische Formeln 
+
+Aber Achtung: $(a+b)^2 \neq a^2 + b^2$.^[... wenn nicht gerade $a=0$ oder $b=0$.] Es gilt nämlich
+
+\begin{equation}
+(a+b)^2 = a^2+2ab+b^2, (\#eq:binom1)
+\end{equation}
+
+\begin{equation}
+(a-b)^2 = a^2-2ab+b^2,(\#eq:binom2)
+\end{equation}
+
+\begin{equation}
+(a+b)(a-b) = a^2-b^2. (\#eq:binom3)
+\end{equation}
+
+<button class="button" onclick="reveal('button9')">Kannst du die erste Formel durch Ausmultiplizieren überprüfen?</button>
+
+<div id="button9" class="solutionbox" style="display:none">
+\begin{align*}
+(a+b)^2 &= (a+b)(a+b) = a(a+b) + b(a+b) \\ &= a^2 + ab + ba + b^2 = a^2 + 2ab + b^2
+\end{align*}
+</div>
+
+## Wurzeln
+
+Wurzeln sind nichts anderes als Potenzen. Man definiert *die $n$-te Wurzel aus $a$* als $\displaystyle\sqrt[n]{a} := a^\frac{1}{n}$. Die Quadratwurzel ist der Spezialfall $n = 2$: $\displaystyle\sqrt[2]{a} := \sqrt{a} := a^\frac{1}{2}$. Wurzeln können Potenzen aufzulösen, denn $\displaystyle \sqrt[n]{a^n} = (a^n)^\frac{1}{n} = a^{n\cdot \frac{1}{n}} = a$ gemäß \@ref(eq:pot5).
+
+## Gleichungen
+
+Das [Kommutativgesetz](#kommutativgesetz) für die Addition ($a+b = b+a$) ist ein Beispiel für eine Gleichung: der Term links des Gleichheitszeichens $=$ ist *gleich* (genau so groß, identisch) dem Term auf der rechten Seite.
+
+Eine Gleichung bleibt erhalten, wenn auf beiden Seiten der Gleichung die gleichen Umformungen vorgenommen werden: Wenn $x + 2 = 3$ gilt, dann gilt auch $x + 2 - 2 = 3 - 2$ und auch $x = 1$. Wir haben hier *die Gleichung nach $x$ aufgelöst* indem wir auf beiden Seiten $2$ subtrahiert haben; $x = 1$ ist *die Lösung der Gleichung*. Verkürzt kann man die Umformung mit dem Äquivalenzpfeil aufgeschreiben: $x + 2 = 3 \Leftrightarrow x = 1$. 
+
+## p-q-Formel
+
+Die *quadratische* Gleichung $x^2 + px + q = 0$ hat zwei Lösungen für $x$:
+
+\begin{equation}
+x_{1,2} = -\frac{p}{2} \pm \sqrt{\left(\frac{p}{2}\right)^2 - q} (\#eq:pq)
+\end{equation}
+
+## Ungleichungen 
+
+Wir können auch ausdrücken, dass zwei Dinge ungleich sind:
+
+- $a \neq b$ heißt *$a$ ist nicht gleich $b$*
+- $a < b$ heißt *$a$ ist kleiner als $b$*
+- $a \leq b$ heißt *$a$ ist höchstens so groß wie $b$*
+- $a \geq b$ heißt *$a$ ist mindestens so groß wie $b$*
+- $a > b$ heißt *$a$ ist größer als $b$*
+
+Wichtig bei der Umformung von Ungleichungen: Bei Multipikation oder Division mit einer negativen Zahl dreht sich das Ungleichheitszeichen um.
+
+<button class="button" onclick="reveal('button10')">Wie lautet die Lösung von $-2x \geq 8$?</button>
+
+<div id="button10" class="solutionbox" style="display:none">
+$$-2x \geq 8 \Leftrightarrow x \leq -\frac{8}{2} \Leftrightarrow x \leq -4$$
+</div>
+
+## Betrag
+
+Den *Absolutbetrag* (oder auch einfach *Betrag*) einer Zahl erhält man durch Weglassen des Vorzeichens, also ist $|7| = 7$ und $|-7| = 7$. Gleichungen mit Beträgen löst man am besten durch eine Fallunterscheidung: Der Ausdruck innerhalb des Betrages kann positiv oder negativ sein.
+
+<button class="button" onclick="reveal('button11')">Wie lautet die Lösung von $|2x-9| = 3$?</button>
+
+<div id="button11" class="solutionbox" style="display:none">
+Fall 1: $2x-9 = 3 \Leftrightarrow 2x = 12 \Leftrightarrow x = 6$
+
+Fall 2: $-(2x-9) = 3 \Leftrightarrow -2x + 9 = 3 \Leftrightarrow -2x = -6 \Leftrightarrow x = 3$
+
+Also lösen $x=6$ und $x=3$ die Betragsgleichung.
+</div>
+
+## Funktionen 
+
+Eine Funktion ist eine Abbildung zwischen zwei Mengen, typischerweise zwei Mengen an Zahlen, die jedem Element der einen Menge genau ein Element der anderen Menge zuordnet. Die Funktion $f(x) = x^2$ zum Beispiel erhält die Zahl $x$ und gibt das Quadrat von $x$ zurück. Die Menge möglicher Eingabewerte nennt man *Definitionsbereich*, die Menge der Ausgabewerte nennt man *Wertebereich*.
+
+<button class="button" onclick="reveal('button12')">Welche Zahlen werden von $f(x) = x^2 - 4$ auf $0$ abgebildet?</button>
+
+<div id="button12" class="solutionbox" style="display:none">
+Wir lösen die [Gleichung](#gleichungen) $f(x) = 0 \Leftrightarrow x^2 - 4 = 0 \Leftrightarrow x^2 = 4$ und erhalten die zwei Lösungen (Nullstellen) $x_1 = 2$ und $x_2 = -2$.
+</div>
+
+## Summenzeichen
+
+Den griechischen Buchstaben $\displaystyle \sum$ (Sigma) verwenden Mathematiker um Summen verkürzt aufzuschreiben. Zum Beispiel kannst du $x_1 + x_2 + x_3 + x_4$ als $\displaystyle \sum_{i=1}^4 x_i$ (sprich *die Summe von $i$ gleich 1 bis 4 über $x_i$*) schreiben. Beachte, dass der Ausdruck $x_i$ einen Index $i$ hat, für den die Zahlen $1$ bis $4$ eingesetzt werden.
+
+<button class="button" onclick="reveal('button13')">Wie lautet das Ergebnis von $\displaystyle \sum_{i=-2}^2 i$?</button>
+
+<div id="button13" class="solutionbox" style="display:none">
+$$\sum_{i=-2}^2 i = (-2) + (-1) + 0 + 1 + 2 = 0$$
+</div>
+
+## Produktzeichen 
+
+Analog zum Summenzeichen können Produkt mit dem Produktzeichen $\displaystyle \prod$ (der griechische Buchstabe Pi) verkürzt werden, zum Beispiel 
+$$1 \cdot 3 \cdot 5 \cdot 7 = \prod_{k=0}^3 2k+1.$$
