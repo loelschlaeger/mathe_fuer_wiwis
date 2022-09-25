@@ -10,4 +10,4 @@
 
 👷 The book is built using the [bookdown](https://bookdown.org/) R package and [GitHub Pages](https://pages.github.com/).
 
-🐣 This book is written and updated during the winter term 2022/23 and the summer term 2023. If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply [open an issue](https://github.com/loelschlaeger/mathe_fuer_wiwis/issues/new).
+🐣 This book is written and updated during the winter term 2022/23 and the summer term 2023. If you have a suggestion that would make this better, please [open an issue](https://github.com/loelschlaeger/mathe_fuer_wiwis/issues/new).
