@@ -1,7 +1,7 @@
 --- 
 title: "Mathe für WiWis"
 author: "Lennart Oelschläger"
-date: "25.09.2022"
+date: "27.10.2022"
 description: |
   Inhalte der einführenden Mathe Vorlesungen für Wirtschaftswissenschaftler
 site: bookdown::bookdown_site
@@ -19,7 +19,7 @@ Dieses eBook entsteht während des Wintersemesters 2022/23 und des Sommersemeste
 
 ## Inhalte {-}
 
-Wir besprechen die klassischen Themen der Mathematik Vorlesung in den ersten Semestern des Wirtschaftsstudiums, von [Aussagenlogik](aussagenlogik.html) bis [Optimierung](optimierung.html). Verstreut wirst du auch ein paar Übungsaufgaben und Videos finden.
+Wir besprechen die klassischen Themen der Mathematik Vorlesung in den ersten Semestern des Wirtschaftsstudiums, von [Aussagenlogik](aussagenlogik.html) bis [Optimierung](optimierung.html). Verstreut wirst du auch ein paar Übungen und Videos finden.
 
 ## Über mich {-}
 
