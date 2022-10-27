@@ -11,7 +11,7 @@ url: https://loelschaeger.de/mathe_fuer_wiwis
 
 # Willkommen {-}
 
-Von Ökonomen wird erwartet, dass sie gut rechnen und logisch denken können. Deshalb beschäftigen sich angehende Wirtschaftswissenschaftler ab Studienbeginn mit Mathematik. An den meisten Hochschulen wird Mathematik deutlich formaler gelehrt als an Schulen. Viele Studienanfänger sind der neuen Ausrichtung zunächst wenig zugeneigt. Lass uns gemeinsam anfängliche Hürden überwinden! &#129351;
+Von Ökonomen wird erwartet, dass sie rationale und wirtschaftliche Entscheidungen treffen können. Voraussetzung dafür sind mathematische Kompetenzen, zum Beispiel logisches Denkvermögen. Deshalb beschäftigen sich angehende Wirtschaftswissenschaftler ab Studienbeginn mit Mathematik. An den meisten Hochschulen wird Mathematik deutlich abstrakter gelehrt als an Schulen. Viele Studienanfänger sind dieser formalen Ausrichtung zunächst wenig zugeneigt. Lass uns gemeinsam anfängliche Hürden überwinden! &#129351;
 
 ::: {.rmdwarning}
 Dieses eBook entsteht während des Wintersemesters 2022/23 und des Sommersemesters 2023 und wird laufend überarbeitet. [Benachrichtige mich](#dein-feedback) bitte bei Fehlern oder Ergänzungswünschen.
@@ -19,7 +19,7 @@ Dieses eBook entsteht während des Wintersemesters 2022/23 und des Sommersemeste
 
 ## Inhalte {-}
 
-Wir besprechen die klassischen Themen der Mathematik Vorlesung in den ersten Semestern des Wirtschaftsstudiums, von [Aussagenlogik](aussagenlogik.html) bis [Optimierung](optimierung.html). Verstreut wirst du auch ein paar Übungen und Videos finden.
+Wir besprechen die klassischen Themen der Mathematik Vorlesung in den ersten Semestern des Wirtschaftsstudiums, von [Aussagenlogik](aussagenlogik.html) bis [Optimierung](optimierung.html). Über das eBook verstreut wirst du Übungen und Videos finden.
 
 ## Über mich {-}
 
