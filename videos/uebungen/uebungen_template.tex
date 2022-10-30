@@ -1,0 +1,37 @@
+\documentclass[aspectratio=169,12pt]{beamer}
+
+% packages
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage{amsmath,amsfonts,amssymb,mathtools}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{multicol}
+
+% meta
+$if(title)$ \title{$title$} $endif$
+\author{$for(author)$$author$$sep$ \and $endfor$}
+\date{$date$}
+
+% appearance
+\setbeamertemplate{navigation symbols}{}
+
+% commands
+\newcommand{\aufgabe}[3]{
+  \begin{frame}{#1}
+    #2
+  \end{frame}
+  \begin{frame}
+    #3
+  \end{frame}
+}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+$body$
+
+\end{document}

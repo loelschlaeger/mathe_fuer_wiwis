@@ -1,0 +1,25 @@
+---
+title: "Mathe Übungen"
+author: "Lennart Oelschläger"
+date: "Version: `r format(Sys.Date(), '%d.%m.%Y')`"
+output:
+  pdf_document:
+    template: uebungen_template.tex
+---
+
+\aufgabe{Welche der folgenden Schlüsse sind logisch richtig?}{
+  \begin{enumerate}
+    \item Alle Greifvögel können fliegen und Adler sind Greifvögel.
+    $\Rightarrow$ Adler können fliegen.
+    \item Alle Vögel können fliegen und Pinguine sind Vögel.
+    $\Rightarrow$ Pinguine können fliegen.
+    \item Alle Greifvögel können fliegen und Libellen können fliegen.
+    $\Rightarrow$ Libellen sind Greifvögel.
+  \end{enumerate}
+}{
+  \begin{enumerate}
+    \item Richtig ($(A \Rightarrow B \wedge B \Rightarrow C) \Rightarrow (A \Rightarrow C)$)
+    \item Falsche Annahme (Nicht alle Vögel können fliegen), aber richtige Schlussfolgerung
+    \item Falsche Schlussfolgerung
+  \end{enumerate}
+}
